@@ -53,7 +53,20 @@ ollama run llama3.2
 
 - Challenge the imbalance of power between platforms and users  
 - Provide transparency and feedback during moderation decisions  
-- Offer warmth, support, and dignity in the appeal experience  
+- Offer warmth, support, and dignity in the appeal experience
+
+## Feature Testing & Development Logs
+During development, I iterated on both frontend and backend features to ensure usability and emotional clarity for users:
+![Frontend Test](assets/frontTest.png)
+Initial layout test for user input fields and emotional prompt.
+![Frontend V2](assets/frontTest2.png)
+Improved version with user-centered copy and refined button states.
+![Backend API Test](assets/backendTest.png)
+FastAPI integration test: appeal submission and AI feedback endpoints.
+![Web Style Adjust](assets/adjustWebStyle.png)
+Dynamic background gradient and button hover logic implemented for visual warmth.
+![AI Chatbot Test](assets/aiTest.png)
+AI chatbot prototype using Ollama (LLaMA3.2), simulating caring responses in chat.
 
 ## References
 
@@ -65,4 +78,5 @@ ollama run llama3.2
 ## Disclaimer
 
 This is a conceptual prototype for academic purposes only.  
-Created by Sophia / Suyu Lu (UAL, Computing and Creative Industry MA).
+Created by Suyu Lu (UAL)
+Student Id:24000975
